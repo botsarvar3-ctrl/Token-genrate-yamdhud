@@ -1,17 +1,24 @@
+res.send(`
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Express App</title>
-  <link rel="stylesheet" href="style.css">
+    <title>My Express App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="box">
+<div class="box">
     <h1>Hello Aayush 🚀</h1>
     <p>Server successfully working!</p>
     <button onclick="showAlert()">Click Me</button>
-  </div>
+</div>
 
-  <script src="script.js"></script>
+<script>
+function showAlert() {
+    alert("Working!");
+}
+</script>
+
 </body>
 </html>
+`);
