@@ -604,4 +604,8 @@ app.get('/', (req, res) => {
                 }
                 
                 .input-group .icon {
-                    positi
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
